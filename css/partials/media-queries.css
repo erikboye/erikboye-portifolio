@@ -1,0 +1,46 @@
+@media (max-width: 874px) {
+
+/*HAMBURGER-MENU*/
+.header-nav {
+    display: none;
+  }
+
+  .nav_hamburger {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #683706;
+    transition: top 1s ease;
+    display: none;
+  }
+
+  nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+  }
+
+  nav .openMenu {
+      display: block;
+  }
+
+  nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(187, 165, 147);
+      font-size: 2rem;
+  }
+}

@@ -1,0 +1,40 @@
+footer {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: sticky;
+    margin-bottom: 2.5rem;
+    margin-top: 10rem;
+    font-family: 'Quicksand', sans-serif;
+    border-top: solid 1px black;
+  }
+
+  .footer_whole {
+    margin-top: 2rem;
+    display: flex;
+    width:80%;
+  }
+
+  .footer_left {
+    width: 80%;
+  }
+
+  .wof-text, .abt-footer  {
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+ .lorem_footer_text {
+   line-height: 1.8rem;
+   width: 60%;
+ }
+
+ .abt-text {
+  line-height: 2.5rem;
+ }
+
+ .mobile_fot {
+   display: none;
+  }
+  

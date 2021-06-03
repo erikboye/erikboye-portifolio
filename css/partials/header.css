@@ -1,0 +1,110 @@
+.logo_container {
+  margin-top: 30px;
+}
+
+.header__container {
+  width: 100%;
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 100px;
+  font-weight: 500;
+
+}
+
+.nav-link {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 25%;
+}
+
+.headerlist:hover {
+  text-decoration: line-through;
+ 
+}
+
+.desktop__headerlist {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.desktop__headerlist:before, .desktop__headerlist:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #fff;
+}
+
+.desktop__headerlist:before {
+  left: -2.5px;
+}
+.desktop__headerlist:after {
+  right: 2.5px;
+  background: #fff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.desktop__headerlist:hover:before {
+  background: #fff;
+  width: 105%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.desktop__headerlist:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+
+
+/*HAMBURGER-MENU*/
+
+.nav_hamburger {
+  display: none;
+}
+
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+nav .mainMenu li a:hover {
+    background: #DCCCBC;
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+nav .logo {
+    margin: 6px;
+    font-size: 25px;
+    cursor: pointer;
+}
