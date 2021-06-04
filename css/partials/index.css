@@ -19,6 +19,14 @@
   display: block;
   width: 60%;
   text-align: left;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+}
+
+.frontend_text {
+  font-weight: bold;
+  font-size: x-large;
 }
 
 .main-wrap {

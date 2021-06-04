@@ -45,6 +45,7 @@
 .desktop__headerlist:before {
   left: -2.5px;
 }
+
 .desktop__headerlist:after {
   right: 2.5px;
   background: #fff;
