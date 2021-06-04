@@ -13,28 +13,27 @@
   justify-content: flex-end;
   margin-top: 100px;
   font-weight: 500;
-
 }
 
 .nav-link {
   display: inline-flex;
   justify-content: space-evenly;
-  width: 25%;
+  width: auto;
 }
 
 .headerlist:hover {
   text-decoration: line-through;
- 
 }
 
 .desktop__headerlist {
+  margin-left: 30px;
   position: relative;
-  display: block;
   cursor: pointer;
 }
 
-.desktop__headerlist:before, .desktop__headerlist:after {
-  content: '';
+.desktop__headerlist:before,
+.desktop__headerlist:after {
+  content: "";
   position: absolute;
   width: 0%;
   height: 1px;
@@ -64,8 +63,6 @@
   transition: 0s;
 }
 
-
-
 /*HAMBURGER-MENU*/
 
 .nav_hamburger {
@@ -73,38 +70,39 @@
 }
 
 nav .mainMenu {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 nav .mainMenu li a {
-    display: inline-block;
-    padding: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
 }
 
 nav .mainMenu li a:hover {
-    background: #DCCCBC;
+  background: #dcccbc;
 }
 
 nav .openMenu {
-    font-size: 2rem;
-    margin: 20px;
-    display: none;
-    cursor: pointer;
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
 }
 
-nav .mainMenu .closeMenu , .icons i {
-    font-size: 2rem;
-    display: none;
-    cursor: pointer;
+nav .mainMenu .closeMenu,
+.icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
 }
 
 nav .logo {
-    margin: 6px;
-    font-size: 25px;
-    cursor: pointer;
+  margin: 6px;
+  font-size: 25px;
+  cursor: pointer;
 }

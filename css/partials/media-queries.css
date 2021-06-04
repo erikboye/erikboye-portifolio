@@ -1,7 +1,10 @@
 @media (max-width: 874px) {
+  .logo {
+    width: 60%;
+  }
 
-/*HAMBURGER-MENU*/
-.header-nav {
+  /*HAMBURGER-MENU*/
+  .header-nav {
     display: none;
   }
 
@@ -22,25 +25,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #683706;
+    background: #ecbb89;
     transition: top 1s ease;
     display: none;
   }
 
   nav .mainMenu .closeMenu {
-      display: block;
-      position: absolute;
-      top: 20px;
-      right: 20px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
   }
 
   nav .openMenu {
-      display: block;
+    display: block;
   }
 
   nav .mainMenu li a:hover {
-      background: none;
-      color: rgb(187, 165, 147);
-      font-size: 2rem;
+    background: none;
+    color: rgb(187, 165, 147);
+    font-size: 2rem;
   }
+
+  /*FOOTER*/
 }
