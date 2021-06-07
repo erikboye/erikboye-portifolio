@@ -3,6 +3,28 @@
     width: 60%;
   }
 
+
+  /*INDEX.HTML*/
+
+  body {
+    width: 90%;
+  }
+
+  .main-wrap,
+  .fp_erik, 
+  .ima_text {
+    display: block;
+    width: 100%;
+  }
+
+  .fp_erik {
+  width: 50%;
+  }
+
+
+
+
+
   /*HAMBURGER-MENU*/
   .header-nav {
     display: none;
@@ -48,4 +70,11 @@
   }
 
   /*FOOTER*/
+  footer {
+    width: 100%;
+  
+  }
+
+
+
 }

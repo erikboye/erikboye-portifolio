@@ -5,8 +5,8 @@
   text-align: center;
   margin-top: 2rem;
   width: 90%;
-  height: 700px;
-  border: rgb(34, 190, 63) solid 1px;
+  height: 1100px;
+  /* border: rgb(34, 190, 63) solid 1px; */
 }
 
 .frontend_div {
@@ -16,12 +16,8 @@
 
 .text-wrap {
   margin: auto;
-  display: block;
   width: 60%;
   text-align: left;
-  margin: auto;
-  align-items: center;
-  width: 100%;
 }
 
 .frontend_text {
@@ -31,18 +27,16 @@
 
 .main-wrap {
   display: flex;
-  justify-content: space-between;
   margin: auto;
-  border: red 2px solid;
-  width: 90%;
-  height: 500px;
+  /* border: red 2px solid; */
+  width:  80%;
+  height: 600px;
 }
 
 .fp_erik {
+  margin: auto;
   border-radius: 4rem;
-  height: 30rem;
-  width: 40%;
-  margin-right: 5rem;
+  width: 30%;
 }
 
 .ima_text {
