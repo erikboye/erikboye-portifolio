@@ -6,7 +6,6 @@
   margin-top: 2rem;
   width: 90%;
   height: 1100px;
-  /* border: rgb(34, 190, 63) solid 1px; */
 }
 
 .frontend_div {
@@ -20,15 +19,9 @@
   text-align: left;
 }
 
-.frontend_text {
-  font-weight: bold;
-  font-size: x-large;
-}
-
 .main-wrap {
   display: flex;
   margin: auto;
-  /* border: red 2px solid; */
   width:  80%;
   height: 600px;
 }
