@@ -34,18 +34,11 @@ footer {
   font-size: 1.2rem;
 }
 
-
-
-.desktop__navlist:hover {
-  text-decoration: line-through;
-}
-
 .desktop__navlist {
   margin-left: 30px;
   position: relative;
   cursor: pointer;
   font-size: 0.8rem;
-
 }
 
 .desktop__navlist:before,
@@ -54,7 +47,7 @@ footer {
   position: absolute;
   width: 0%;
   height: 1px;
-  top: 50%;
+  top: 15%;
   margin-top: -0.5px;
   background: #fff;
 }

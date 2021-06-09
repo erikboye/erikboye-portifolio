@@ -3,13 +3,13 @@
     width: 60%;
   }
 
-
-  /*INDEX.HTML*/
-
   body {
     width: 90%;
   }
 
+
+
+  /*INDEX.HTML*/
   .main-wrap,
   .fp_erik, 
   .ima_text {
@@ -17,12 +17,25 @@
     width: 100%;
   }
 
-  .fp_erik {
-  width: 50%;
+  .main-wrap {
+    height: 550px;
+  }
+  .ima_text,
+  .animate__animated {
+    margin-top: 2rem;
   }
 
 
+  .fp_erik  {
+    width: 60%;
+  }
 
+  .wrap_icons {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
 
 
   /*HAMBURGER-MENU*/
@@ -34,7 +47,7 @@
     display: flex;
     position: absolute;
     right: 30px;
-    top: 30px;
+    top: 14px;
   }
 
   nav .mainMenu {
@@ -69,12 +82,48 @@
     font-size: 2rem;
   }
 
-  /*FOOTER*/
-  footer {
-    width: 100%;
-  
+
+
+  /*CONTACT.HTML*/
+  .hero_banner {
+    height: 400px;
+  }
+
+  .about_erik1 {
+    text-align: center;
+    margin-top: 6rem;
+    width: 70%;
+    font-size: 1rem;
+  }
+
+  .about_erik2 {
+  width: 70%;
+  }
+
+  .about_pic_erik {
+    width: 75%;
   }
 
 
+
+  /*ABOUT.HTML*/
+  .about-wrap {
+    display: block;
+  }
+
+  .about_pic_erik {
+    margin: auto;
+    width: 40%;
+    
+}
+
+
+
+
+
+  /*FOOTER*/
+  footer {
+    width: 100%;
+  }
 
 }

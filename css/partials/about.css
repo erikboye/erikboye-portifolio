@@ -1,46 +1,39 @@
-.hero_banner {
-    display: flex;
+.about_box {
     margin: auto;
-    border-radius: 10px;
-    height: 400px;
-    width: 80%;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #DCCCBC;
-    margin-bottom: 50px;
-}
-
-.hi_text {
-    font-family: 'Quicksand', sans-serif;
-    margin: auto;
+    align-items: center;
     text-align: center;
-    font-size: 4rem;
-}
+    width: 90%;
+    height: 1150px;
+    }
 
-.about_container {
+.about-wrap {
     display: flex;
     margin: auto;
-    width: 50%;
-    font-family: 'Quicksand', sans-serif;
-    line-height: 2.5rem;
-    margin-bottom: 13rem;
-}
+    margin-top: 5rem;
+    width:  90%;
+    height: 600px;
+  }
 
-.about_erik {
+.about_erik1,
+.about_erik2 {
+    line-height: 35px;
     margin: auto;
-    text-align: center;
+    margin-bottom: 3rem;
+    width: 35%;
+    text-align: left;
 }
 
-.bill_container {
-    display: flex;
-    width: 100%;
+.about_erik1 {
+    margin-top: 20rem;
 }
 
-.bottom_container {
-    display: inline-block;
+.about_textwrap {
     margin: auto;
-    font-family: 'Quicksand', sans-serif;
+    display: block;
 }
 
-.text_eriko {
-    font-weight: bold;
+.about_pic_erik {
+    margin: auto;
+    width: 20%;
+    margin-top: 10rem;
 }

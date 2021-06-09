@@ -1,37 +1,59 @@
 .section-card-contact {
+    width: 100%;
+    height: 800px;
     display: flex;
     margin: auto;
+    margin-bottom: 5rem;
     border-radius: 20px;
-    background-color: #f2f2f2;
-    width: 100%;
-    font-family: 'Quicksand', sans-serif;
+    background-color: transparent;
   }
+
+  .hero_banner {
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    height: 400px;
+    width: 80%;
+    background-color:transparent;
+    margin-bottom: 50px;
+}
+
+.hi_text {
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .i_will {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .hello_img {
+    width: 50%;
+  }
+  
 
   .div-card-contact {
     width: 100%;
   }
 
-  .h1contact {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-  }
-
   input[type="text"],
   textarea {
     padding: 12px;
-    border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     width: 100%;
+    color: black;
   }
   
   input[type="submit"] {
     background-color: #1ae4249d;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -45,9 +67,9 @@
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: transparent;
     margin: auto;
-    width: 80%;
+    width: 60%;
     margin-bottom: 30px;
   }
   
