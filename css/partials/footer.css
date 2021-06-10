@@ -4,6 +4,7 @@ footer {
   justify-content: space-between;
   font-weight: 400;
   height: 50px;
+  margin-top: auto;
 }
 
 .icons_wrap {

@@ -1,6 +1,26 @@
-.project_wrap {
-    border: 2px solid hotpink;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-  }
+.dev-wrap {
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+  width:  70%;
+  height: 1100px;
+}
+
+.dev_title {
+  margin: auto;
+  margin-bottom: 10rem;
+  text-align: center;
+  font-size: 4rem;
+} 
+
+.dev_text {
+  margin-bottom: 40rem;
+  line-height: 35px;
+  margin: auto;
+  width: 50%;
+ }
+
+.developer_textwrap {
+  margin: auto;
+  display: block;
+}

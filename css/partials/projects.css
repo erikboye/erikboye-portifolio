@@ -1,10 +1,11 @@
 .projects_wrap {
     margin: auto;
     width: 50%;
-    text-align: center;
     height: 1200px;
+    text-align: center;
     display: block;
   }
+
 
   .animate__backInDown {
     margin-top: 5rem;
@@ -12,10 +13,17 @@
 }
 
   .wof_h3 {
+      color:rgb(255, 255, 255);
       margin: auto;
-      width: 27%;
+      font-size: 2rem;
+      width: 100%;
       margin-top: 5rem;
-      border-bottom: 1px solid white;
+      text-decoration: underline 1px solid; 
+  }
+
+  .wof_h3:hover {
+    transform: var(--bounce);
+    transition: var(--transition);
   }
 
   .exam_description {
@@ -23,6 +31,5 @@
       width: 50%;
       margin-top: 1rem;
       line-height: 25px;
-      font-weight: 400;
+      font-weight: 200;
   }
-
