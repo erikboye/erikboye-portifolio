@@ -17,10 +17,18 @@
   margin-bottom: 40rem;
   line-height: 35px;
   margin: auto;
-  width: 50%;
+  width: 43%;
+  text-align: center;
  }
 
 .developer_textwrap {
   margin: auto;
   display: block;
+}
+
+.erik_working {
+  display: flex;
+  margin: 20px auto;
+  width: 30%;
+  border-radius: 5px;
 }

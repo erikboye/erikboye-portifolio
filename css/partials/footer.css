@@ -5,6 +5,8 @@ footer {
   font-weight: 400;
   height: 50px;
   margin-top: auto;
+  position: sticky;
+  top: 100%;
 }
 
 .icons_wrap {

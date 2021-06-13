@@ -32,8 +32,14 @@
     display: block;
 }
 
+.eriko_div {
+    display: flex;
+    margin: auto;
+    width: 100%
+}
+
 .about_pic_erik {
     margin: auto;
-    width: 20%;
-    margin-top: 10rem;
+    width: 30%;
+    margin-top: 20rem;
 }
